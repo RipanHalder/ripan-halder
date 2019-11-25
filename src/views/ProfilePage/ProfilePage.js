@@ -34,7 +34,8 @@ import mb1 from "assets/img/lifelines/mb-1.jpg";
 import mb2 from "assets/img/lifelines/mb-2.jpg";
 import flat331 from "assets/img/lifelines/flat33-1.jpg";
 import brit1 from "assets/img/lifelines/brit-1.jpg";
-import school1 from "assets/img/lifelines/school-1.jpg";
+import fam1 from "assets/img/lifelines/family-1.png";
+// import school1 from "assets/img/lifelines/school-1.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
@@ -215,7 +216,7 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={brit1}
+                              src={fam1}
                               className={navImageClasses}
                             />
                             <img
@@ -225,7 +226,7 @@ export default function ProfilePage(props) {
                             />
                             <img
                               alt="..."
-                              src={bb2}
+                              src={mb2}
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -237,12 +238,12 @@ export default function ProfilePage(props) {
                             />
                             <img
                               alt="..."
-                              src={mb2}
+                              src={bb2}
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={school1}
+                              src={brit1}
                               className={navImageClasses}
                             />
                           </GridItem>
