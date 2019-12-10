@@ -68,7 +68,7 @@ export default function HeaderLinks(props) {
 
         <Tooltip
           id="github"
-          title="Mu Projects on Github"
+          title="My Projects on Github"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
