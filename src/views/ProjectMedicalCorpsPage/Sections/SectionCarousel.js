@@ -8,14 +8,13 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/MedicalCorps/HomePage.png";
-import image2 from "assets/img/MedicalCorps/EnterpriseTypes.png";
-import image3 from "assets/img/MedicalCorps/AddEnterpriseAdmins.png";
-import image4 from "assets/img/MedicalCorps/SysAdminHomepage.png";
-import image5 from "assets/img/MedicalCorps/AFAdminHomePage.png";
-import image6 from "assets/img/MedicalCorps/AddingAFOrgs.png";
-import image7 from "assets/img/MedicalCorps/AddingAFEmployees.png";
-import image8 from "assets/img/MedicalCorps/Doctor Home Screen.png";
+import image1 from "assets/img/MedicalCorps/HomePage.jpg";
+import image2 from "assets/img/MedicalCorps/EnterpriseTypes.jpg";
+import image3 from "assets/img/MedicalCorps/AddEnterpriseAdmins.jpg";
+import image4 from "assets/img/MedicalCorps/SysAdminHomepage.jpg";
+import image5 from "assets/img/MedicalCorps/AFAdminHomePage.jpg";
+import image6 from "assets/img/MedicalCorps/AddingAFOrgs.jpg";
+import image7 from "assets/img/MedicalCorps/AddingAFEmployees.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
@@ -91,14 +90,6 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                     Adding Armed Forces Employees to their respective Organizations
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img src={image8} alt="Doctor Home Screen" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                    Doctor Home Screen
                     </h4>
                   </div>
                 </div>

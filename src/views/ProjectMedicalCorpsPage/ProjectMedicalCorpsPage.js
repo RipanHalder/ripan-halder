@@ -42,7 +42,7 @@ export default function ProjectMedicalCorpsPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("assets/img/MedicalCorps/HomePage.png")}>
+      <Parallax filter image={require("assets/img/MedicalCorps/HomePage.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

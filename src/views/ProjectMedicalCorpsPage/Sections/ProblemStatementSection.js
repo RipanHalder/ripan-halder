@@ -12,8 +12,8 @@ import CropOriginalIcon from '@material-ui/icons/CropOriginal';
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
-import imageDesign from "assets/img/MedicalCorps/Design Use Case.png";
-import imageObjectModel from "assets/img/MedicalCorps/Object Model.png";
+import imageDesign from "assets/img/MedicalCorps/Design Use Case.jpg";
+import imageObjectModel from "assets/img/MedicalCorps/Object Model.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/pillsStyle.js";
 
