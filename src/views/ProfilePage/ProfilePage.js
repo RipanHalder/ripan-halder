@@ -3,6 +3,8 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+// react components for routing our app without refresh
+import { Link } from "react-router-dom";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
@@ -157,20 +159,20 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={5}>
                           <Tooltip
                               id="medical-corps-app"
-                              title="View Github"
+                              title="Medical Corps Management System"
                               placement={window.innerWidth > 959 ? "top" : "left"}
                               classes={{ tooltip: classes.tooltip }}
                             >
-                              <a href="https://github.com/RipanHalder"
-                                target = "_blank" 
-                                rel="noopener noreferrer">
+                              <Link to="mcms" className={classes.link}>
                             <img
                               alt="..."
                               src={project3}
                               className={navImageClasses}
                             />
-                            <h6>Medical Corps Management System, Java, Swing</h6>
-                            </a></Tooltip>
+                            <Button color="primary" size="lg" simple>
+                              Medical Corps Management System
+                            </Button>
+                          </Link></Tooltip>
                             <Tooltip
                               id="donation-handout-app"
                               title="View App Deployed on Herokub"
