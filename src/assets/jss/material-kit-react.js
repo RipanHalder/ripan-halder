@@ -168,10 +168,10 @@ const blog = {
   fontWeight: "500",
   fontFamily: `"Merriweather", "Times New Roman", serif`,
   margin: "0 0 10px",
-  fontSize: "20px",
+  fontSize: "18px",
   paddingRight: "auto",
-  marginRight: "2em",
-  marginLeft: "2em",
+  marginRight: "1.5em",
+  marginLeft: "1.5em",
   textAlign: "justify"
 };
 
