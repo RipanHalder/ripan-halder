@@ -295,8 +295,14 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={8}>
+                          <Link to="ice-breaker" className={classes.link}>
+                              <Button color="rose">Ice Breaker Speech</Button>
+                            </Link>
                             <Link to="little-things" className={classes.link}>
                               <Button color="rose">Little Things</Button>
+                            </Link>
+                            <Link to="cycle-of-love-and-loathe-with-mangalore" className={classes.link}>
+                              <Button color="rose">Cycle Of Love And Loathe With Mangalore</Button>
                             </Link>
                           </GridItem>
                         </GridContainer>
