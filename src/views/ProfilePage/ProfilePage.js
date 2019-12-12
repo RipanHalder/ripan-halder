@@ -298,6 +298,9 @@ export default function ProfilePage(props) {
                             <Link to="little-things" className={classes.link}>
                               <Button color="rose">Little Things</Button>
                             </Link>
+                            <Link to="cycle-of-love-and-loathe-with-mangalore" className={classes.link}>
+                              <Button color="rose">Cycle Of Love And Loathe With Mangalore</Button>
+                            </Link>
                           </GridItem>
                         </GridContainer>
                       )
