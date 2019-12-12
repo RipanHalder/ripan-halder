@@ -15,7 +15,6 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/blogs.js";
-import LiveProgressBar from "components/CustomLinearProgress/LiveProgressBar.js";
 
 import Quote from "components/Typography/Quote.js";
 
@@ -54,7 +53,7 @@ export default function LittleThings(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
 
-<LiveProgressBar /><div className="blogStyle">
+<div className="blogStyle">
         <span>&emsp;
           <p className={classes.blog}>&emsp;&emsp;There was an old man playing harmonium just outside the Chandan theatre for an hour and then another hour outside Four Bungalows area 
           in Mumbai, India. He sang almost 25 songs in these places. He was quite unassuming. He was wearing shoddy clothes. 
