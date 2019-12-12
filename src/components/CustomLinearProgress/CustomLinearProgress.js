@@ -36,6 +36,12 @@ CustomLinearProgress.propTypes = {
     "success",
     "info",
     "rose",
-    "gray"
+    "gray",
+    "cyan50",
+    "cyan100",
+    "cyan200",
+    "cyan300",
+    "cyan400",
+    "cyan500"
   ])
 };
