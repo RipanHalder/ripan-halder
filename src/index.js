@@ -12,6 +12,8 @@ import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import ProjectMedicalCorpsPage from "views/ProjectMedicalCorpsPage/ProjectMedicalCorpsPage.js";
 import LittleThings from "views/Blogs/LittleThings.js";
+import CycleOfLoveAndLoatheWithMangalore from "views/Blogs/CycleOfLoveAndLoatheWithMangalore.js";
+
 import IceBreaker from "views/Blogs/IceBreaker.js";
 var hist = createBrowserHistory();
 // var sslRedirect = require("heroku-ssl-redirect");
@@ -26,6 +28,7 @@ ReactDOM.render(
       <Route path="/comp" component={Components} />
       <Route path="/mcms" component={ProjectMedicalCorpsPage} />
       <Route path="/little-things" component= {LittleThings} />
+      <Route path="/cycle-of-love-and-loathe-with-mangalore" component = {CycleOfLoveAndLoatheWithMangalore} />
       <Route path="/ice-breaker" component= {IceBreaker} />
       <Route path="/" component={ProfilePage} />
     </Switch>
