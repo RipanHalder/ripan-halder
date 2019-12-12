@@ -48,8 +48,7 @@ const container = {
 };
 
 const boxShadow = {
-  boxShadow:
-    "0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
+  boxShadow: "0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
 };
 
 const card = {
@@ -77,29 +76,30 @@ const infoColor = "#00acc1";
 const roseColor = "#e91e63";
 const grayColor = "#999999";
 
+const cyan50 = "#e0f7fa";
+const cyan100 = "#b2ebf2";
+const cyan200 = "#80deea";
+const cyan300 = "#4dd0e1";
+const cyan400 = "#26c6da";
+const cyan500 = "#00bcd4";
+
 const primaryBoxShadow = {
-  boxShadow:
-    "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+  boxShadow: "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
 };
 const infoBoxShadow = {
-  boxShadow:
-    "0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2)"
+  boxShadow: "0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2)"
 };
 const successBoxShadow = {
-  boxShadow:
-    "0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2)"
+  boxShadow: "0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2)"
 };
 const warningBoxShadow = {
-  boxShadow:
-    "0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2)"
+  boxShadow: "0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2)"
 };
 const dangerBoxShadow = {
-  boxShadow:
-    "0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2)"
+  boxShadow: "0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2)"
 };
 const roseBoxShadow = {
-  boxShadow:
-    "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)"
+  boxShadow: "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)"
 };
 
 const warningCardHeader = {
@@ -149,8 +149,7 @@ const cardHeader = {
 const defaultBoxShadow = {
   border: "0",
   borderRadius: "3px",
-  boxShadow:
-    "0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
+  boxShadow: "0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
   padding: "10px 0",
   transition: "all 150ms ease 0s"
 };
@@ -208,6 +207,12 @@ export {
   infoColor,
   roseColor,
   grayColor,
+  cyan50,
+  cyan100,
+  cyan200,
+  cyan300,
+  cyan400,
+  cyan500,
   primaryBoxShadow,
   infoBoxShadow,
   successBoxShadow,

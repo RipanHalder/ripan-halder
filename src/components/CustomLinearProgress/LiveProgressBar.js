@@ -44,14 +44,61 @@ export default class LiveProgressBar extends Component  {
   }
 
   render() {
-    return (
-      <div className="App">
-        <CustomLinearProgress
-                variant="determinate"
-                color="rose"
-                value={this.state.scrollPostion}
-              />
-      </div>
-    );
+    const scrollPostion = this.state.scrollPostion;
+    if(scrollPostion >= 0 && scrollPostion < 20){
+      return (
+        <div className="App">
+          <CustomLinearProgress
+                  variant="determinate"
+                  color="cyan50"
+                  value={scrollPostion}
+                />
+        </div>
+      );
+    }
+    if(scrollPostion >= 20 && scrollPostion <40){
+      return (
+        <div className="App">
+          <CustomLinearProgress
+                  variant="determinate"
+                  color="cyan100"
+                  value={scrollPostion}
+                />
+        </div>
+      );
+    }
+    if(scrollPostion >= 40 && scrollPostion <60){
+      return (
+        <div className="App">
+          <CustomLinearProgress
+                  variant="determinate"
+                  color="cyan200"
+                  value={scrollPostion}
+                />
+        </div>
+      );
+    }
+    if(scrollPostion >= 60 && scrollPostion <80){
+      return (
+        <div className="App">
+          <CustomLinearProgress
+                  variant="determinate"
+                  color="cyan300"
+                  value={scrollPostion}
+                />
+        </div>
+      );
+    }
+    if(scrollPostion >= 80 && scrollPostion <= 100){
+      return (
+        <div className="App">
+          <CustomLinearProgress
+                  variant="determinate"
+                  color="cyan400"
+                  value={scrollPostion}
+                />
+        </div>
+      );
+    }
   }
 }

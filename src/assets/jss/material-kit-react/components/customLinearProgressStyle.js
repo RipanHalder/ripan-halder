@@ -5,19 +5,24 @@ import {
   successColor,
   infoColor,
   roseColor,
-  grayColor
+  grayColor,
+  cyan50,
+  cyan100,
+  cyan200,
+  cyan300,
+  cyan400,
 } from "assets/jss/material-kit-react.js";
 
 const customLinearProgressStyle = {
   root: {
-    height: "6px",
+    height: "4px",
     marginBottom: "20px",
     overflow: "hidden",
     left: 0,
     bottom : 0
   },
   bar: {
-    height: "8px",
+    height: "4px",
     // position: "fixed"
   },
   primary: {
@@ -40,6 +45,21 @@ const customLinearProgressStyle = {
   },
   gray: {
     backgroundColor: grayColor
+  },
+  cyan50:{
+    backgroundColor: cyan50
+  },
+  cyan100:{
+    backgroundColor: cyan100
+  },
+  cyan200:{
+    backgroundColor: cyan200
+  },
+  cyan300:{
+    backgroundColor: cyan300
+  },
+  cyan400:{
+    backgroundColor: cyan400
   },
   primaryBackground: {
     background: "rgba(156, 39, 176, 0.2)"
