@@ -15,7 +15,6 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/blogs.js";
-import LiveProgressBar from "components/CustomLinearProgress/LiveProgressBar.js";
 
 import Quote from "components/Typography/Quote.js";
 
