@@ -11,7 +11,7 @@ import LandingPage from "views/LandingPage/LandingPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import ProjectMedicalCorpsPage from "views/ProjectMedicalCorpsPage/ProjectMedicalCorpsPage.js";
-
+import LittleThings from "views/Blogs/LittleThings.js";
 var hist = createBrowserHistory();
 // var sslRedirect = require("heroku-ssl-redirect");
 // const app = express();
@@ -24,6 +24,7 @@ ReactDOM.render(
       <Route path="/login-page" component={LoginPage} />
       <Route path="/comp" component={Components} />
       <Route path="/mcms" component={ProjectMedicalCorpsPage} />
+      <Route path="/little-things" component= {LittleThings} />
       <Route path="/" component={ProfilePage} />
     </Switch>
   </Router>,

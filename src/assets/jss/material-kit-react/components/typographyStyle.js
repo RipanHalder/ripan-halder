@@ -17,20 +17,23 @@ const typographyStyle = {
     marginBottom: "10px"
   },
   quote: {
-    padding: "10px 20px",
+    padding: "30px 35px",
     margin: "0 0 20px",
-    fontSize: "17.5px",
+    fontSize: "20px",
     borderLeft: "5px solid #eee"
   },
   quoteText: {
     margin: "0 0 10px",
-    fontStyle: "italic"
+    fontSize: "18px",
+    fontStyle: "italic",
+    textAlign: "justify"
   },
   quoteAuthor: {
     display: "block",
-    fontSize: "80%",
+    fontSize: "100%",
     lineHeight: "1.42857143",
-    color: "#777"
+    color: "#777",
+    textAlign: "justify"
   },
   mutedText: {
     color: "#777"
