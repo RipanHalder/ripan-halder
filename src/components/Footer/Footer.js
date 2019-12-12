@@ -41,19 +41,7 @@ export default function Footer(props) {
             </ListItem>
           </List>
         </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> on base of{" "}
-          <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Material Kit React
-          </a>{" "}
-          - a free material-ui kit
         </div>
-      </div>
     </footer>
   );
 }
