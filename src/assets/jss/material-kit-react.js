@@ -163,6 +163,19 @@ const title = {
   fontFamily: `"Roboto Slab", "Times New Roman", serif`
 };
 
+const blog = {
+  color: "#3C4858",
+  textDecoration: "none",
+  fontWeight: "500",
+  fontFamily: `"Merriweather", "Times New Roman", serif`,
+  margin: "0 0 10px",
+  fontSize: "20px",
+  paddingRight: "auto",
+  marginRight: "2em",
+  marginLeft: "2em",
+  textAlign: "justify"
+};
+
 const cardTitle = {
   ...title,
   marginTop: ".625rem"
@@ -213,5 +226,6 @@ export {
   title,
   cardTitle,
   cardLink,
-  cardSubtitle
+  cardSubtitle,
+  blog
 };

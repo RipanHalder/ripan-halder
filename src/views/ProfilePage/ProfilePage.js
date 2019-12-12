@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
-import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import PaletteIcon from '@material-ui/icons/Palette';
 // core components
 import Header from "components/Header/Header.js";
@@ -19,6 +18,7 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
+import CreateIcon from '@material-ui/icons/Create';
 
 import Tooltip from "@material-ui/core/Tooltip";
 
@@ -290,12 +290,14 @@ export default function ProfilePage(props) {
                       )
                     },
                     {
-                      tabButton: "Skills",
-                      tabIcon: PlaylistAddCheckIcon,
+                      tabButton: "Blogs",
+                      tabIcon: CreateIcon,
                       tabContent: (
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-                            
+                          <GridItem xs={12} sm={12} md={8}>
+                            <Link to="little-things" className={classes.link}>
+                              <Button color="rose">Little Things</Button>
+                            </Link>
                           </GridItem>
                         </GridContainer>
                       )
