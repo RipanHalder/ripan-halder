@@ -100,5 +100,14 @@ export default class LiveProgressBar extends Component  {
         </div>
       );
     }
+    return (
+      <div className="App">
+        <CustomLinearProgress
+                variant="determinate"
+                color="cyan400"
+                value={scrollPostion}
+              />
+      </div>
+    );
   }
 }
