@@ -45,7 +45,7 @@ export default function LittleThings(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Little Things</h1>
               <h4>
-                This was my CS-2 Speech at Infosys Toastmasters, Mangalore. Mentored by Shivna Tiwari & Sagnik Biswas
+                This was my P2 Speech at Infosys Toastmasters, Mangalore. Mentored by Shivna Tiwari & Sagnik Biswas
               </h4>
             </GridItem>
           </GridContainer>
