@@ -54,9 +54,9 @@ export default function ProjectMedicalCorpsPage(props) {
               <Button
                 color="github"
                 size="lg"
-                href="https://github.com/RipanHalder/MedicalCorpsManagementSystem"
+                href="Ripan_Halder_Resume_old.pdf"
                 target="_blank"
-                rel="noopener noreferrer"
+                download
               >
                   <CloudDownload className={classes.icons} />
                 Download Resume

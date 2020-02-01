@@ -41,7 +41,7 @@
  }
  #resume .title {
    font: 25px/30px 'opensans-bold', sans-serif;
-   padding: 10px 0px;
+   padding: 20px 0px;
 }
 #resume .location{
    font: 15px/20px 'opensans-regular', sans-serif;
@@ -52,7 +52,8 @@
  }
 
  #resume table {
-   
+   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+   font-size: 14px;
  }
 
  #resume .td-title{

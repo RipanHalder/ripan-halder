@@ -2,6 +2,9 @@ import React from "react";
 import resumeData from '../../../assets/resumeData';
 import '../../../assets/css/resumeStyle.css';
 
+import GridContainer from "components/Grid/GridContainer.js";
+import GridItem from "components/Grid/GridItem.js";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -15,11 +18,11 @@ export default function ResumeSection() {
       <div className={classes.container}>
         <section id="resume">
             <div className="row work">
-                <div className="three columns header-col">
+            <GridContainer justify="center">
+                <GridItem xs={12} sm={12} md={2}>
                     <h1><span>Work</span></h1>
-                </div>
-
-                <div className="nine columns main-col">
+                </GridItem>
+                <GridItem xs={12} sm={12} md={10}>
                     {
                         resumeData.work && resumeData.work.map((item) => {
                             let achievements = item.Achievements.map(function(name){
@@ -34,11 +37,8 @@ export default function ResumeSection() {
                                         <p className="info">
                                             {item.specialization}
                                             <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                                        <p>
-                                        {/* <li key={item.Achievements}></li> */}
-                                        <ul>{ achievements }</ul>
 
-                                        </p>
+                                        <ul>{ achievements }</ul>
                                     </div>
 
                                 </div>
@@ -46,14 +46,18 @@ export default function ResumeSection() {
                             )
                         })
                     }
-                </div>
+                </GridItem>
+                </GridContainer>
             </div>
             <div className="row education">
+            <GridContainer justify="center">
+            <GridItem xs={12} sm={12} md={2}>
 
                 <div className="three columns header-col">
                     <h1><span>Education</span></h1>
                 </div>
-
+            </GridItem>
+            <GridItem xs={12} sm={12} md={10}>
                 <div className="nine columns main-col">
                     {
                         resumeData.education && resumeData.education.map((item) => {
@@ -78,16 +82,23 @@ export default function ResumeSection() {
                         })
                     }
                 </div>
+                </GridItem>
+                </GridContainer>
             </div>
 
             <div className="row skill">
+
+            <GridContainer justify="center">
+            <GridItem xs={12} sm={12} md={2}>
                 <div className="three columns header-col">
                     <h1><span>Skills</span></h1>
                 </div>
-
+            </GridItem>
+            <GridItem xs={12} sm={12} md={10}>
                 <div className="nine columns main-col">
-                        <div><p>
+                        <div>
                             <table >
+                                <thead></thead><tbody>
                                 <tr>
                                     <td className="td-title">Programming Languages</td>
                                     <td className="td-content">Java, JavaScript, Swift, Python, Shell Scripting, C#</td>
@@ -123,14 +134,13 @@ export default function ResumeSection() {
                                 <tr>
                                     <td className="td-title">IDEs</td>
                                     <td className="td-content">Visual Studio Code, IntelliJ, Eclipse, Netbeans, X-Code, MATLAB</td>
-                                </tr>
+                                </tr></tbody>
                             </table>
-                            </p>
                         </div>
                 </div>
-
+                </GridItem>
+            </GridContainer>
             </div>
-
         </section>
         </div>
     );
