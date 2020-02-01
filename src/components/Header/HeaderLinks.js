@@ -12,7 +12,8 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { CloudDownload } from "@material-ui/icons";
+import HomeIcon from '@material-ui/icons/Home';
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -26,33 +27,20 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      {/* <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
-      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Button
           color="transparent"
           className={classes.navLink}
+          href="/"
+        >
+          <HomeIcon className={classes.icons} /> Home
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          className={classes.navLink}
+          href="/aboutme"
         >
           <CloudDownload className={classes.icons} /> Resume
         </Button>
