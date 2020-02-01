@@ -55,12 +55,11 @@ export default function ProfilePage(props) {
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   return (
+    <div className="wrapper">
     <MetaTags>
             <title>Ripan Halder Profile Page</title>
             <meta name="description" content="A portfolio website to present work, college, projects, gallery, blog etc. Compassionate software developer with 7 months of experience at Retail Business Services, an Ahold Delhaize USA Company and 3 years of experience at Infosys Ltd. Currently pursuing masters from Northeastern University in Information Systems. Proficient team
 player, hardworking and a toastmaster international certified competent leader.
-
-My interests are to become a versatile and skilled full stack developer and looking forward to these future opportunities.
 
 Technical Skills:
 • Programming languages: Java, JavaScript, Swift, Python, Shell Scripting, C#
@@ -73,7 +72,9 @@ Technical Skills:
 • Methodologies: Agile, Waterfall
 • IDE's: Visual Studio Code, IntelliJ, Eclipse, Netbeans, X-Code, MATLAB
 
-Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" />
+My interests are to become a versatile and skilled full stack developer and looking forward to these future opportunities.
+
+Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></meta>
           </MetaTags>
     <div>
       <Header
@@ -338,6 +339,7 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" />
         </div>
       </div>
       <Footer />
+    </div>
     </div>
   );
 }
