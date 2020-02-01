@@ -41,6 +41,8 @@ import fam1 from "assets/img/lifelines/family-1.png";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
+import MetaTags from 'react-meta-tags';
+
 const useStyles = makeStyles(styles);
 
 export default function ProfilePage(props) {
@@ -53,6 +55,26 @@ export default function ProfilePage(props) {
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   return (
+    <MetaTags>
+            <title>Ripan Halder Profile Page</title>
+            <meta name="description" content="A portfolio website to present work, college, projects, gallery, blog etc. Compassionate software developer with 7 months of experience at Retail Business Services, an Ahold Delhaize USA Company and 3 years of experience at Infosys Ltd. Currently pursuing masters from Northeastern University in Information Systems. Proficient team
+player, hardworking and a toastmaster international certified competent leader.
+
+My interests are to become a versatile and skilled full stack developer and looking forward to these future opportunities.
+
+Technical Skills:
+• Programming languages: Java, JavaScript, Swift, Python, Shell Scripting, C#
+• Web Technologies: NodeJS, Express, React, Angular, JSP, HTML, CSS, SASS, Bootstrap
+• Database: MongoDB, MSSQL, MySQL, PostgreSQL, MariaDB, Redis
+• Standards and Frameworks: Spring Boot, Spring MVC, Hibernate, Servlets, JDBC, .Net Framework, Swing, JSON, XML
+• Azure Cloud Technologies: App Services, Storage Containers, CI/CD, Docker, Service Bus, Firewall, Front Door, Cognitive Search
+• AWS Cloud Technologies: Lambda, EC2, S3, SNS, SES, RDS, Cloud Formation, Teraform, CircleCI, TravisCI
+• Other Technologies: Microsoft Graph API, Elastic Search
+• Methodologies: Agile, Waterfall
+• IDE's: Visual Studio Code, IntelliJ, Eclipse, Netbeans, X-Code, MATLAB
+
+Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" />
+          </MetaTags>
     <div>
       <Header
         color="transparent"
