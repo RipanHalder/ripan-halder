@@ -125,7 +125,7 @@ export default function ResumeSection() {
                                 </tr>
                                 <tr>
                                     <td className="td-title">Other Technologies</td>
-                                    <td className="td-content">Graph API, Elastic Search</td>
+                                    <td className="td-content">Microsoft Graph API, Elastic Search</td>
                                 </tr>
                                 <tr>
                                     <td className="td-title">Methodologies</td>
