@@ -13,6 +13,7 @@ import LoginPage from "views/LoginPage/LoginPage.js";
 import ProjectMedicalCorpsPage from "views/ProjectMedicalCorpsPage/ProjectMedicalCorpsPage.js";
 import LittleThings from "views/Blogs/LittleThings.js";
 import CycleOfLoveAndLoatheWithMangalore from "views/Blogs/CycleOfLoveAndLoatheWithMangalore.js";
+import ResumePage from "views/ResumePage/ResumePage.js";
 
 import IceBreaker from "views/Blogs/IceBreaker.js";
 var hist = createBrowserHistory();
@@ -30,6 +31,7 @@ ReactDOM.render(
       <Route path="/little-things" component= {LittleThings} />
       <Route path="/cycle-of-love-and-loathe-with-mangalore" component = {CycleOfLoveAndLoatheWithMangalore} />
       <Route path="/ice-breaker" component= {IceBreaker} />
+      <Route path="/aboutme" component= {ResumePage} />
       <Route path="/" component={ProfilePage} />
     </Switch>
   </Router>,
