@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 
+import ReactGA from 'react-ga';
+
 import "assets/scss/material-kit-react.scss?v=1.8.0";
 
 // pages for this product
@@ -37,3 +39,9 @@ ReactDOM.render(
   </Router>,
   document.getElementById("root")
 );
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/');
+}
