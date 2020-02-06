@@ -42,6 +42,6 @@ ReactDOM.render(
 
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-123791717-1');
+  ReactGA.initialize('UA-157875068-1');
   ReactGA.pageview('/');
 }
