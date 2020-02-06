@@ -43,6 +43,8 @@ import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import MetaTags from 'react-meta-tags';
 
+import ReactGA from 'react-ga';
+
 const useStyles = makeStyles(styles);
 
 export default function ProfilePage(props) {
@@ -54,6 +56,7 @@ export default function ProfilePage(props) {
     classes.imgFluid
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+  initializeReactGA();
   return (
     <div className="wrapper">
     <MetaTags>
@@ -342,4 +345,10 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
     </div>
     </div>
   );
+}
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-157875068-1');
+  ReactGA.pageview('/');
 }
