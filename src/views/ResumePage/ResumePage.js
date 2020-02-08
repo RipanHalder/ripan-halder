@@ -54,7 +54,7 @@ export default function ProjectMedicalCorpsPage(props) {
               <Button
                 color="github"
                 size="lg"
-                href="Ripan_Halder_Resume_old.pdf"
+                href="RIPAN_HALDER.pdf"
                 target="_blank"
                 download
               >
