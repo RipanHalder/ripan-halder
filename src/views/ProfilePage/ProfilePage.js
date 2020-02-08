@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
-import PaletteIcon from '@material-ui/icons/Palette';
+import { CloudDownload } from "@material-ui/icons";
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -19,7 +19,8 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 import CreateIcon from '@material-ui/icons/Create';
-import ResumeSection from '../ResumePage/Sections/ResumeSection.js'
+import ResumeSection from '../ResumePage/Sections/ResumeSection.js';
+import SnackbarContent from "components/Snackbar/SnackbarContent.js";
 
 import Tooltip from "@material-ui/core/Tooltip";
 
@@ -221,17 +222,6 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                       )
                     },
                     {
-                      tabButton: "Resume",
-                      tabIcon: PaletteIcon,
-                      tabContent: (
-                        <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={12}>
-                            < ResumeSection />
-                          </GridItem>
-                        </GridContainer>
-                      )
-                    },
-                    {
                       tabButton: "Lifelines",
                       tabIcon: Camera,
                       tabContent: (
@@ -311,6 +301,30 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                     }
                   ]}
                 />
+              </GridItem>
+            </GridContainer>
+            <SnackbarContent
+              message={
+                <span>
+                  <b>Resume:</b> Below are my resume details. You can also download a pdf version here. <Button
+                color="github"
+                size="md"
+                href="RIPAN_HALDER.pdf"
+                target="_blank"
+                download
+              >
+                  <CloudDownload className={classes.icons} />
+                resume.pdf
+              </Button>
+                </span>
+              }
+              close
+              color="info"
+              icon="info_outline"
+            />
+            <GridContainer justify="center">
+              <GridItem xs={12} sm={12} md={12}>
+                  <ResumeSection/>
               </GridItem>
             </GridContainer>
           </div>
