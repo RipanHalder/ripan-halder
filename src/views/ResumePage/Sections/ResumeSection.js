@@ -17,38 +17,6 @@ export default function ResumeSection() {
     return (
       <div className={classes.container}>
         <section id="resume">
-            <div className="row work">
-            <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={2}>
-                    <h1><span>Work</span></h1>
-                </GridItem>
-                <GridItem xs={12} sm={12} md={10}>
-                    {
-                        resumeData.work && resumeData.work.map((item) => {
-                            let achievements = item.Achievements.map(function(name){
-                                return <li>{name}</li>;
-                              })
-                            return (
-                                <div className="row item">
-                                    <div className="twelve columns">
-                                    <div className="title">{item.CompanyName}
-                                        <span className="location"><em>, {item.location}</em></span>
-                                    </div>
-                                        <p className="info">
-                                            {item.specialization}
-                                            <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-
-                                        <ul>{ achievements }</ul>
-                                    </div>
-
-                                </div>
-
-                            )
-                        })
-                    }
-                </GridItem>
-                </GridContainer>
-            </div>
             <div className="row education">
             <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={2}>
@@ -82,6 +50,38 @@ export default function ResumeSection() {
                         })
                     }
                 </div>
+                </GridItem>
+                </GridContainer>
+            </div>
+            <div className="row work">
+            <GridContainer justify="center">
+                <GridItem xs={12} sm={12} md={2}>
+                    <h1><span>Work</span></h1>
+                </GridItem>
+                <GridItem xs={12} sm={12} md={10}>
+                    {
+                        resumeData.work && resumeData.work.map((item) => {
+                            let achievements = item.Achievements.map(function(name){
+                                return <li>{name}</li>;
+                              })
+                            return (
+                                <div className="row item">
+                                    <div className="twelve columns">
+                                    <div className="title">{item.CompanyName}
+                                        <span className="location"><em>, {item.location}</em></span>
+                                    </div>
+                                        <p className="info">
+                                            {item.specialization}
+                                            <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+
+                                        <ul>{ achievements }</ul>
+                                    </div>
+
+                                </div>
+
+                            )
+                        })
+                    }
                 </GridItem>
                 </GridContainer>
             </div>

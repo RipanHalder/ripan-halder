@@ -19,6 +19,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 import CreateIcon from '@material-ui/icons/Create';
+import ResumeSection from '../ResumePage/Sections/ResumeSection.js'
 
 import Tooltip from "@material-ui/core/Tooltip";
 
@@ -220,6 +221,17 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                       )
                     },
                     {
+                      tabButton: "Resume",
+                      tabIcon: PaletteIcon,
+                      tabContent: (
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={12}>
+                            < ResumeSection />
+                          </GridItem>
+                        </GridContainer>
+                      )
+                    },
+                    {
                       tabButton: "Lifelines",
                       tabIcon: Camera,
                       tabContent: (
@@ -274,43 +286,6 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               src={brit1}
                               className={navImageClasses}
                             />
-                          </GridItem>
-                        </GridContainer>
-                      )
-                    },
-                    {
-                      tabButton: "Work",
-                      tabIcon: PaletteIcon,
-                      tabContent: (
-                        <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-                            {/* <img
-                              alt="..."
-                              src={work1}
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src={work2}
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src={work3}
-                              className={navImageClasses}
-                            />
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src={work4}
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src={work5}
-                              className={navImageClasses}
-                            /> */}
                           </GridItem>
                         </GridContainer>
                       )

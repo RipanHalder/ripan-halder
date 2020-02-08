@@ -25,7 +25,7 @@ const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function ProjectMedicalCorpsPage(props) {
+export default function ResumePage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
