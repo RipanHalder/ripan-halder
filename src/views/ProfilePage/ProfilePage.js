@@ -306,15 +306,12 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
             <SnackbarContent
               message={
                 <span>
-                  <b>Resume:</b> Below are my resume details. You can also download a pdf version here. <Button
-                color="github"
-                size="md"
-                href="RIPAN_HALDER.pdf"
-                target="_blank"
-                download
-              >
-                  <CloudDownload className={classes.icons} />
-                resume.pdf
+                  <b>Resume:</b> Below are my resume details. You can also download a pdf version here. 
+                  <Button justIcon round color="github" size="md"
+                    href="RIPAN_HALDER.pdf"
+                    target="_blank"
+                    download>
+                <CloudDownload className={classes.icons} />
               </Button>
                 </span>
               }
