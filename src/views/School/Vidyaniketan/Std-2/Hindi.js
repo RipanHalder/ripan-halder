@@ -83,11 +83,11 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                This page has the recordings for Hindi subject for Std 3rd. {" "}
+                This page has the recordings for Hindi subject for Std 2nd. {" "}
               </p>
             </div>
             <hr></hr>
-              <h4> STD 3 - Hindi</h4>
+              <h4> STD 2 - Hindi</h4>
             <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
                 <Button
@@ -156,7 +156,7 @@ export default function ProfilePage(props) {
 
             <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <AudioPlayer
-                    src="https://ripanhalderblobstorage.blob.core.windows.net/audio/STD 1 - Sooraj Aaya.mp4"
+                    src="https://ripanhalderblobstorage.blob.core.windows.net/audio/STD 2 - Sooraj Aaya.mp4.mp4"
                     onPlay={e => console.log("onPlay")}
                     // other props here
                 />

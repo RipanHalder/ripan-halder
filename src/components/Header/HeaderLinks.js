@@ -54,8 +54,8 @@ export default function HeaderLinks(props) {
                         color: "transparent"
                       }}
                       dropdownList={[
-                        <Link to="/vidyaniketan/std1" className={classes.dropdownLink}>
-                          STD I
+                        <Link to="/vidyaniketan/std2" className={classes.dropdownLink}>
+                          STD II
                         </Link>,
                         <Link to="/vidyaniketan/std5" className={classes.dropdownLink}>
                           STD V
