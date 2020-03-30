@@ -46,6 +46,24 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
+                    <CustomDropdown
+                      buttonText="Vidyaniketan"
+                      dropdownHeader="Vidyaniketan - Hindi"
+                      buttonProps={{
+                        className: classes.navLink,
+                        color: "transparent"
+                      }}
+                      dropdownList={[
+                        <Link to="/vidyaniketan/std1" className={classes.dropdownLink}>
+                          STD I
+                        </Link>,
+                        <Link to="/vidyaniketan/std5" className={classes.dropdownLink}>
+                          STD V
+                        </Link>
+                      ]}
+                    />
+                  </ListItem>
+      <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
             <DeleteIcon />
