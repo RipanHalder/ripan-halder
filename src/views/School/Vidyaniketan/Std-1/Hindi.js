@@ -23,7 +23,7 @@ import Slide from "@material-ui/core/Slide";
 import IconButton from "@material-ui/core/IconButton";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/src/styles.scss';
-import Topic1  from "assets/img/school/std 5/Kaato Mei Raah Banate Hai.jpeg";
+import Topic1  from "assets/img/school/std 1/Sooraj Aaya.jpeg";
 
 import profile from "assets/img/Beauty-Halder.jpg";
 
@@ -83,11 +83,11 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                This page has the recordings for Hindi subject for Std 5th. {" "}
+                This page has the recordings for Hindi subject for Std 3rd. {" "}
               </p>
             </div>
             <hr></hr>
-              <h4> STD 5 - Hindi</h4>
+              <h4> STD 3 - Hindi</h4>
             <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
                 <Button
@@ -96,7 +96,7 @@ export default function ProfilePage(props) {
                   onClick={() => setClassicModal(true)}
                 >
                   <LibraryBooks className={classes.icon} />
-                  Kaato Mei Raah Banate Hai
+                  1. Sooraj Aaya
                 </Button>
                 <Dialog
                   classes={{
@@ -124,7 +124,7 @@ export default function ProfilePage(props) {
                     >
                       <Close className={classes.modalClose} />
                     </IconButton>
-                    <h4 className={classes.modalTitle}>1. Kaato Mei Raah Banate Hai</h4>
+                    <h4 className={classes.modalTitle}>Sooraj Aaya</h4>
                   </DialogTitle>
                   <DialogContent
                     id="classic-modal-slide-description"
@@ -156,7 +156,7 @@ export default function ProfilePage(props) {
 
             <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <AudioPlayer
-                    src="https://ripanhalderblobstorage.blob.core.windows.net/audio/STD 5 - Kaato Mei Rah Bante Hai.mp4"
+                    src="https://ripanhalderblobstorage.blob.core.windows.net/audio/STD 1 - Sooraj Aaya.mp4"
                     onPlay={e => console.log("onPlay")}
                     // other props here
                 />
