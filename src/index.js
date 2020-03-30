@@ -15,6 +15,7 @@ import CycleOfLoveAndLoatheWithMangalore from "views/Blogs/CycleOfLoveAndLoatheW
 import ResumePage from "views/ResumePage/ResumePage.js";
 
 import IceBreaker from "views/Blogs/IceBreaker.js";
+import Std5 from "views/School/Vidyaniketan/Std-5/Hindi.js";
 var hist = createBrowserHistory();
 // var sslRedirect = require("heroku-ssl-redirect");
 // const app = express();
@@ -31,6 +32,7 @@ ReactDOM.render(
       <Route path="/cycle-of-love-and-loathe-with-mangalore" component = {CycleOfLoveAndLoatheWithMangalore} />
       <Route path="/ice-breaker" component= {IceBreaker} />
       <Route path="/aboutme" component= {ResumePage} />
+      <Route path="/std5/hindi" component={Std5} />
       <Route path="/" component={ProfilePage} />
     </Switch>
   </Router>,
