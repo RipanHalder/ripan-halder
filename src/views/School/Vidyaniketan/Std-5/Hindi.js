@@ -12,7 +12,7 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 // @material-ui/icons
-import LibraryBooks from "@material-ui/icons/LibraryBooks";
+import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import Close from "@material-ui/icons/Close";
 
 import Dialog from "@material-ui/core/Dialog";
@@ -95,7 +95,7 @@ export default function ProfilePage(props) {
                   block
                   onClick={() => setClassicModal(true)}
                 >
-                  <LibraryBooks className={classes.icon} />
+                  <PhotoLibraryIcon className={classes.icon} />
                   Kaato Mei Raah Banate Hai
                 </Button>
                 <Dialog

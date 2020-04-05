@@ -17,6 +17,7 @@ import ResumePage from "views/ResumePage/ResumePage.js";
 import IceBreaker from "views/Blogs/IceBreaker.js";
 import Std5 from "views/School/Vidyaniketan/Std-5/Hindi.js";
 import Std2 from "views/School/Vidyaniketan/Std-2/Hindi.js";
+import Std7 from "views/School/Vidyaniketan/Std-7/Hindi.js";
 var hist = createBrowserHistory();
 // var sslRedirect = require("heroku-ssl-redirect");
 // const app = express();
@@ -35,6 +36,7 @@ ReactDOM.render(
       <Route path="/aboutme" component= {ResumePage} />
       <Route path="/vidyaniketan/std5" component={Std5} />
       <Route path="/vidyaniketan/std2" component={Std2} />
+      <Route path="/vidyaniketan/std7" component={Std7} />
       <Route path="/" component={ProfilePage} />
     </Switch>
   </Router>,

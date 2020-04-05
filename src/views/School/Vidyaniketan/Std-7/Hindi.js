@@ -23,7 +23,8 @@ import Slide from "@material-ui/core/Slide";
 import IconButton from "@material-ui/core/IconButton";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/src/styles.scss';
-import Topic1  from "assets/img/school/std 2/Sooraj Aaya.jpeg";
+import Topic1  from "assets/img/school/std 7/Hum Panchi Unmukt Gagan Ke-1.jpeg";
+import Topic2  from "assets/img/school/std 7/Hum Panchi Unmukt Gagan Ke-2.jpeg";
 
 import profile from "assets/img/Beauty-Halder.jpg";
 
@@ -83,11 +84,11 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                This page has the recordings for Hindi subject for Std 2nd. {" "}
+                This page has the recordings for Hindi subject for Std 7th. {" "}
               </p>
             </div>
             <hr></hr>
-              <h4> STD 2 - Hindi</h4>
+              <h4> STD 7 - Hindi - Vasant Bhag 2</h4>
             <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}>
                 <Button
@@ -96,7 +97,7 @@ export default function ProfilePage(props) {
                   onClick={() => setClassicModal(true)}
                 >
                   <PhotoLibraryIcon className={classes.icon} />
-                  1. Sooraj Aaya
+                  1. Hum Panchi Unmukt Gagan Ke
                 </Button>
                 <Dialog
                   classes={{
@@ -124,7 +125,7 @@ export default function ProfilePage(props) {
                     >
                       <Close className={classes.modalClose} />
                     </IconButton>
-                    <h4 className={classes.modalTitle}>Sooraj Aaya</h4>
+                    <h4 className={classes.modalTitle}>Hum Panchi Unmukt Gagan Ke</h4>
                   </DialogTitle>
                   <DialogContent
                     id="classic-modal-slide-description"
@@ -132,6 +133,17 @@ export default function ProfilePage(props) {
                   >
                     <img
                         src={Topic1}
+                        alt="..."
+                        className={
+                        classes.imgRaised +
+                        " " +
+                        classes.imgRounded +
+                        " " +
+                        classes.imgFluid
+                        }
+                    />
+                    <img
+                        src={Topic2}
                         alt="..."
                         className={
                         classes.imgRaised +
@@ -156,7 +168,7 @@ export default function ProfilePage(props) {
 
             <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <AudioPlayer
-                    src="https://ripanhalderblobstorage.blob.core.windows.net/audio/STD 2 - Sooraj Aaya.mp4"
+                    src="https://ripanhalderblobstorage.blob.core.windows.net/audio/Hum Panchi Unmukt Gagan Ke.mp4"
                     onPlay={e => console.log("onPlay")}
                     // other props here
                 />

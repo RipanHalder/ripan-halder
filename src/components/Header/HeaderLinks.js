@@ -59,6 +59,9 @@ export default function HeaderLinks(props) {
                         </Link>,
                         <Link to="/vidyaniketan/std5" className={classes.dropdownLink}>
                           STD V
+                        </Link>,
+                        <Link to="/vidyaniketan/std7" className={classes.dropdownLink}>
+                          STD VII
                         </Link>
                       ]}
                     />
