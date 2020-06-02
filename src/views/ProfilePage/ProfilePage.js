@@ -334,7 +334,6 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
   );
 }
 
-
 function initializeReactGA() {
   ReactGA.initialize('UA-157875068-1');
   ReactGA.pageview('/');
