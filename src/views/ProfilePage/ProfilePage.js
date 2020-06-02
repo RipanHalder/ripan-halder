@@ -140,6 +140,28 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                 towards mobile gaming. Passionate in this agile world and keen learner on weekends. {" "}
               </p>
             </div>
+            
+            <SnackbarContent
+              message={
+                <span>
+                  <b>Resume:</b> Below are my resume details. You can also download a pdf version here. 
+                  <Button justIcon round color="github" size="md"
+                    href="RIPAN_HALDER.pdf"
+                    target="_blank"
+                    download>
+                <CloudDownload className={classes.icons} />
+              </Button>
+                </span>
+              }
+              close
+              color="info"
+              icon="info_outline"
+            />
+            <GridContainer justify="center">
+              <GridItem xs={12} sm={12} md={12}>
+                  <ResumeSection/>
+              </GridItem>
+            </GridContainer>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={10} className={classes.navWrapper}>
                 <NavPills
@@ -301,27 +323,6 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                     }
                   ]}
                 />
-              </GridItem>
-            </GridContainer>
-            <SnackbarContent
-              message={
-                <span>
-                  <b>Resume:</b> Below are my resume details. You can also download a pdf version here. 
-                  <Button justIcon round color="github" size="md"
-                    href="RIPAN_HALDER.pdf"
-                    target="_blank"
-                    download>
-                <CloudDownload className={classes.icons} />
-              </Button>
-                </span>
-              }
-              close
-              color="info"
-              icon="info_outline"
-            />
-            <GridContainer justify="center">
-              <GridItem xs={12} sm={12} md={12}>
-                  <ResumeSection/>
               </GridItem>
             </GridContainer>
           </div>
