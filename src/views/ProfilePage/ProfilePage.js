@@ -30,6 +30,8 @@ import project1 from "assets/img/projects/ios-app.jpg";
 import project2 from "assets/img/projects/game-rental.jpg";
 import project3 from "assets/img/projects/medical-corp.jpg";
 import project4 from "assets/img/projects/donation-handout.jpg";
+import project5 from "assets/img/projects/bill-tracking-management.jpg";
+import project6 from "assets/img/projects/docker-react-aws.jpg";
 import nilayAna1 from "assets/img/lifelines/nilay-ana-1.jpg";
 import bb1 from "assets/img/lifelines/bb-1.jpg";
 import bb2 from "assets/img/lifelines/bb-2.jpg";
@@ -173,7 +175,25 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                       tabIcon: CloudUploadIcon,
                       tabContent: (
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={5}>
+                          <GridItem xs={4} sm={4} md={4}>
+                          <Tooltip
+                            id="bill-tracking-aws"
+                            title="View Github"
+                            placement={window.innerWidth > 959 ? "top" : "left"}
+                            classes={{ tooltip: classes.tooltip }}
+                          >
+                            <a href="https://github.com/RipanHalder/aws-bill-management-system-webapp"
+                              target = "_blank"
+                              rel="noopener noreferrer"
+                              className={classes.anchor}>
+                          <img
+                            alt="..."
+                            src={project5}
+                            className={navImageClasses}
+                          />
+                          <h6>Bill Tracking Management System - NodeJS, PostgreSQL, AWS, CircleCI</h6></a></Tooltip>
+                          </GridItem>
+                          <GridItem xs={4} sm={4} md={4}>
                           <Tooltip
                               id="ios-app"
                               title="View Github"
@@ -190,6 +210,8 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               className={navImageClasses}
                             />
                             <h6>Events Profiler - iOS App</h6></a></Tooltip>
+                            </GridItem>
+                            <GridItem xs={4} sm={4} md={4}>
                             <Tooltip
                               id="game-rental-app"
                               title="View App Deployed on Heroku"
@@ -205,8 +227,27 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               className={navImageClasses}
                             /><h6>Game Rental Web Application - Spring MVC, Hibernate, MySQL</h6></a>
                           </Tooltip>
+                          
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={5}>
+                          <GridItem xs={4} sm={4} md={4}>
+                            <Tooltip
+                              id="docker-react-aws"
+                              title="Complex Fibonacci Series"
+                              placement={window.innerWidth > 959 ? "top" : "left"}
+                              classes={{ tooltip: classes.tooltip }}
+                            >
+                              <a href="https://github.com/RipanHalder/docker-react-aws"
+                                target = "_blank" 
+                                rel="noopener noreferrer">
+                            <img
+                              alt="..."
+                              src={project6}
+                              className={navImageClasses}
+                            />
+                            <h6>Complex Fibonacci Series - Docker, React, Aws</h6>
+                            </a></Tooltip>
+                          </GridItem>
+                          <GridItem xs={4} sm={4} md={4}>
                           <Tooltip
                               id="medical-corps-app"
                               title="Medical Corps Management System"
@@ -220,9 +261,11 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               className={navImageClasses}
                             />
                             <Button color="primary" size="lg" simple>
-                              Medical Corps Management System
+                              Medical Corps Management System, Java
                             </Button>
                           </Link></Tooltip>
+                          </GridItem>
+                          <GridItem xs={4} sm={4} md={4}>
                             <Tooltip
                               id="donation-handout-app"
                               title="View App Deployed on Herokub"
