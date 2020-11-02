@@ -180,7 +180,7 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               placement={window.innerWidth > 959 ? "top" : "left"}
                               classes={{ tooltip: classes.tooltip }}
                             >
-                              <a href="https://github.com/RipanHalder"
+                              <a href="https://github.com/RipanHalder/EventProfiler"
                                 target = "_blank"
                                 rel="noopener noreferrer"
                                 className={classes.anchor}>
@@ -189,14 +189,14 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               src={project1}
                               className={navImageClasses}
                             />
-                            <h6>Events Finder - iOS App</h6></a></Tooltip>
+                            <h6>Events Profiler - iOS App</h6></a></Tooltip>
                             <Tooltip
                               id="game-rental-app"
                               title="View App Deployed on Heroku"
                               placement={window.innerWidth > 959 ? "top" : "left"}
                               classes={{ tooltip: classes.tooltip }}
                             >
-                              <a href="https://github.com/RipanHalder"
+                              <a href="https://github.com/RipanHalder/games-rental-final-project"
                                 target = "_blank"
                                 rel="noopener noreferrer">
                             <img
@@ -229,7 +229,7 @@ Please feel free to contact me at 646-243-9248 or halder.r@husky.neu.edu" ></met
                               placement={window.innerWidth > 959 ? "top" : "left"}
                               classes={{ tooltip: classes.tooltip }}
                             >
-                              <a href="https://github.com/RipanHalder"
+                              <a href="https://github.com/RipanHalder/handout-donation-site"
                                 target = "_blank" 
                                 rel="noopener noreferrer">
                             <img
