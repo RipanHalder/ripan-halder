@@ -47,7 +47,7 @@ let resumeData = {
       "CompanyName":"Retail Business Services",
       "location":"Quincy, Boston, MA, USA",
       "specialization":"Internship - Backend Developer",
-      "MonthOfLeaving":"June 2019 - December 2020",
+      "MonthOfLeaving":"June 2019 - December 2019",
       "Achievements": [`Developed and deployed RESTful backend applications using NodeJS and MongoDB to Azure App Services.`,
 
       `Developed Lunchbox - a frictionless store, backend servers like registrations, managing sessions, hands-free Braintree & PayPal Payments, generating invoices and handling service bus communications.`,
